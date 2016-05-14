@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint src/** --cache"
+    "lint": "./node_modules/.bin/eslint src/** test/** --cache"
   },
   "keywords": [
     "camisole",
