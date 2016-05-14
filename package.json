@@ -1,0 +1,23 @@
+{
+  "name": "camisole",
+  "version": "0.0.1",
+  "description": "tiny backend",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "camisole",
+    "cms",
+    "api",
+    "server",
+    "back-end",
+    "backend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chancethecoder/camisole.git"  
+  },
+  "author": "Sérgio Miguel",
+  "license": "ISC"
+}
