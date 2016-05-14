@@ -1,6 +1,40 @@
 {
-    "extends": "airbnb",
-    "plugins": [
-        "react"
-    ]
+    "extends": ["airbnb"],
+
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "ecmaFeatures": {
+            "jsx": false,
+            "impliedStrict": true
+        }
+    },
+
+    "env": {
+        "node": true,
+        "es6": true,
+        "mocha": true
+    },
+
+    "rules": {
+        "func-style": ["error", "declaration", {
+            "allowArrowFunctions": true
+            }
+        ],
+        "indent": ["error", "tab"],
+        "no-multiple-empty-lines": ["error", {
+            "max": 1
+            }
+        ],
+        "no-shadow": [
+            "error", {
+                "builtinGlobals": false,
+                "hoist": "all",
+                "allow": ["done"]
+            }
+        ],
+        "no-unexpected-multiline": "error",
+        "semi": ["error", "never"],
+        "space-before-function-paren": ["error", "always"],
+        "quote-props": ["error", "always"]
+    }
 }
